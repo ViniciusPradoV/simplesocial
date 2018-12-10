@@ -13,7 +13,7 @@ User = get_user_model()
 
 class Post(models.Model):
   user = models.ForeignKey(User, related_name='posts')
-  created_at = models.models.DateTimeField(auto_now=True=)
+  created_at = models.DateTimeField(auto_now=True)
   message = models.TextField()
   message_html = models.TextField(editable = False)
   group = models.ForeignKey(Group, related_name='posts', null = True, blank = True)
@@ -31,4 +31,3 @@ class Post(models.Model):
   class Meta():
     ordering = ['-created_at']
     unique_together = ['user', 'message']
-  

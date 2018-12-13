@@ -1,3 +1,33 @@
-.group-name{
-  color: pink;
+body{
+  margin: 0;
+  overflow: hidden;
+  background-color: #131414;
+  color:white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2{
+  font-family: 'PT Serif', serif;
+  font-size: 2.0em;
+}
+
+.index-welcome{
+  font-family: 'PT Serif', serif;
+  font-size: 4em;
+}
+
+.navbar-nav{
+  font-size:1.1em;
+}
+
+.navbar-brand{
+  font-size:1.6em;
+}
+
+.post-media{
+  font-family: 'PT Serif', serif;
+}
+
+.mycontent{
+  font-size: 1em;
 }
